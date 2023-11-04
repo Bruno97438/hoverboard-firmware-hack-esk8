@@ -280,11 +280,11 @@ int main(void) {
     }
 
     // Disable motors when throttle is in neutral
-    if(cmd2 == 0) {
-      enable = 0;
-    } else {
-      enable = 1;
-    }
+    // if(cmd2 == 0) {
+    // enable = 0;
+    // } else {
+    // enable = 1;
+    // }
 
     // ####### MIXER #######
     speedR = CLAMP(speed * SPEED_COEFFICIENT -  steer * STEER_COEFFICIENT, -1000, 1000) * speed_factor;
