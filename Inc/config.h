@@ -106,8 +106,8 @@
 #define STEER_COEFFICIENT   0.0  // higher value == stronger. if you do not want any steering, set it to 0.0; 0.0 to 1.0
 #define INVERT_R_DIRECTION
 #define INVERT_L_DIRECTION
-#define BEEPS_BACKWARD 0    // 0 or 1
-#define BRAKE_FILTER        0.01f // Replaces FILTER while braking
+#define BEEPS_BACKWARD 1   // 0 or 1
+#define BRAKE_FILTER        0.02f // Replaces FILTER while braking
 #define KIDDIE_MODE_REDUCTION 0.5f  // Reduce max speed and acceleration based on switch 
 
 #define ADDITIONAL_CODE
